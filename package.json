@@ -1,0 +1,36 @@
+{
+  "name": "grunt-docset",
+  "version": "0.0.1",
+  "description": "Help generate Dash DocSets",
+  "repository": "",
+  "author": {
+    "name": "Christopher Hiller",
+    "email": "chiller@badwing.com",
+    "url": "http://boneskull.github.io"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt-docset"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": "~0.11.13"
+  },
+  "licenses": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.4",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "graceful-fs": "^3.0.2",
+    "grunt-jekyll": "^0.4.2",
+    "q": "^1.0.1"
+  }
+}
